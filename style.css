@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    --bgColor1: #081b29;
+    --bgColor2: #10293a;
+    --bs-navbar-color: #ededed !important;
+}
+body {
+    /* background-color: var(--bgColor1); */
+    color: #ededed;
+}
+.navbar {
+    background-color: var(--bgColor1) !important;
+    color: #ededed !important;
+}
+section {
+    min-height: 100vh;
+    /* padding:10rem 9% 2rem; */
+}
+.header,
+.mynavbar {
+    background-color: var(--bgColor1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    /* color: #ededed; */
+}
+.navbar-toggler {
+    background-color: #ededed !important;
+}
+/* .navbar-nav {
+    display: flex !important;
+    align-items: center !important;
+} */
+.links a,
+.nav-item a {
+    color: #ededed !important;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu {
+    padding-left: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a:hover {
+    color: #0ef !important;
+}
+.links {
+    display: inline;
+    padding: 2vw;
+}
+
+.myImg img {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 50%;
+}
+.homeContent {
+    width: 50vw;
+    line-height: 1.2;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgColor2);
+}
+.icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: 0.2rem solid;
+    border-color: #ededed;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #ededed;
+    margin-top: 2rem;
+    transition: ease 1s;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    background-color: #081b29;
+    color: #0ef;
+    border-color: #0ef;
+}
+
+.about {
+    background-color: var(--bgColor1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutcontent {
+    line-height: 1.2;
+}
+.heading {
+    font-size: 2.5rem;
+}
+.h1 {
+    font-size: 1.8rem;
+}
+.homeContent p,
+.Aboutcontent p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.sevices {
+    background-color: var(--bgColor2);
+}
+.card-deck {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    border: 3px solid #0ef;
+    height: 25rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* jutisfy-content: space-around; */
+    border-bottom-right-radius: 4em;
+    border-top-left-radius: 4em;
+    box-shadow: 5px 5px 10px #0ef;
+    transition: all 150ms;
+}
+.card:is(:hover, :focus) {
+    box-shadow: 5px 25px 10px #0ef;
+    translate: 0 -20px;
+}
+
+.projects {
+    font-size: 2.5rem;
+
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 20vh;
+}
+.card-title {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card i {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0ef;
+}
+.card p {
+    text-align: center;
+}
+.portfolio {
+    background-color: var(--bgColor1);
+}
+.carousel-item img {
+    height: 30rem;
+    width: 40rem;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.carousel-inner {
+    background-color: white;
+}
